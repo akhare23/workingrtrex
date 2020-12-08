@@ -13,20 +13,20 @@ var gameOverImg,restartImg
 var jumpSound , checkPointSound, dieSound
 
 function preload(){
-  trex_running = loadAnimation("images/thing.png","images/trex.png","images/trex2.png", "images/trex3.png", "images/trex4.png", "images/trex5.png", "images/trex6.png", "images/trex7.png", "images/trex8.png", "images/trex9.png", "images/trex10.png");
-  trex_collided = loadAnimation("images/trex_collided.png", "images/trex_collided2.png", "images/trex_collided3.png", "images/trex_collided4.png", "images/trex_collided5.png");
+  trex_running = loadAnimation("Images/thing.png","Images/trex.png","Images/trex2.png", "Images/trex3.png", "Images/trex4.png", "Images/trex5.png", "Images/trex6.png", "Images/trex7.png", "Images/trex8.png", "images/trex9.png", "images/trex10.png");
+  trex_collided = loadAnimation("Images/trex_collided.png", "Images/trex_collided2.png", "Images/trex_collided3.png", "Images/trex_collided4.png", "Images/trex_collided5.png");
   trex_collided.looping = false;
   
-  groundImage = loadImage("images/ground.jpg");
+  groundImage = loadImage("Images/ground.jpg");
   
-  cloudImage = loadImage("images/cloud.png");
+  cloudImage = loadImage("Images/cloud.png");
   
-  obstacle1 = loadImage("images/obstacle1.png");
-  obstacle2 = loadImage("images/obstacle2.png");
-  obstacle3 = loadImage("images/obstacle3.png");
-  obstacle4 = loadImage("images/obstacle4.png");
-  obstacle5 = loadImage("images/obstacle5.png");
-  obstacle6 = loadImage("images/obstacle6.png");
+  obstacle1 = loadImage("Images/obstacle1.png");
+  obstacle2 = loadImage("Images/obstacle2.png");
+  obstacle3 = loadImage("Images/obstacle3.png");
+  obstacle4 = loadImage("Images/obstacle4.png");
+  obstacle5 = loadImage("Images/obstacle5.png");
+  obstacle6 = loadImage("Images/obstacle6.png");
   
   restartImg = loadImage("restart.png")
   gameOverImg = loadImage("gameOver.png")
